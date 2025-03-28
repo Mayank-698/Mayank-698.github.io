@@ -49,15 +49,15 @@ function displayResult() {
 
         <table>
             <tr><th>Subject</th><th>Theory</th><th>Practical</th><th>Total</th><th>Grade</th></tr>
-            <tr><td>Mathematics</td><td>65</td><td>19</td><td>84</td><td>A2</td></tr>
-            <tr><td>Accountancy</td><td>68</td><td>20</td><td>88</td><td>A2</td></tr>
-            <tr><td>Economics</td><td>66</td><td>18</td><td>84</td><td>A2</td></tr>
+            <tr><td>Mathematics</td><td>66</td><td>19</td><td>85</td><td>A2</td></tr>
+            <tr><td>Accountancy</td><td>69</td><td>20</td><td>89</td><td>A2</td></tr>
+            <tr><td>Economics</td><td>68</td><td>18</td><td>86</td><td>A2</td></tr>
             <tr><td>Business Studies</td><td>70</td><td>20</td><td>90</td><td>A2</td></tr>
-            <tr><td>English</td><td>71</td><td>20</td><td>91</td><td>A1</td></tr>
-            <tr><td>Financial Markets</td><td>56</td><td>38</td><td>94</td><td>A1</td></tr>
+            <tr><td>English</td><td>72</td><td>20</td><td>92</td><td>A1</td></tr>
+            <tr><td>Financial Markets</td><td>57</td><td>38</td><td>95</td><td>A1</td></tr>
         </table>
 
-        <p><strong>Overall Percentage:</strong> ${percentage.toFixed(2)}%</p>
-        <p><strong>CGPA:</strong> ${cgpa}</p>
+        <p><strong>Overall Percentage:</strong> 89.5%</p>
+        <p><strong>CGPA:</strong> 9.4</p>
     `;
 }
