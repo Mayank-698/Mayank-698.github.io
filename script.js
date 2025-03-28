@@ -54,7 +54,7 @@ function displayResult() {
             <tr><td>Economics</td><td>66</td><td>18</td><td>84</td><td>A2</td></tr>
             <tr><td>Business Studies</td><td>70</td><td>20</td><td>90</td><td>A2</td></tr>
             <tr><td>English</td><td>71</td><td>20</td><td>91</td><td>A1</td></tr>
-            <tr><td>Financial Markets</td><td>37</td><td>56</td><td>93</td><td>A1</td></tr>
+            <tr><td>Financial Markets</td><td>56</td><td>38</td><td>94</td><td>A1</td></tr>
         </table>
 
         <p><strong>Overall Percentage:</strong> ${percentage.toFixed(2)}%</p>
