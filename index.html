@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Result Academic Session 2024-25</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Directorate of Education, Govt. of NCT of Delhi</h1>
+        <h2>Annual Result Academic Session 2024-25</h2>
+    </div>
+
+    <div class="container">
+        <form id="resultForm">
+            <table class="input-table">
+                <tr>
+                    <td class="grey-border">Student ID <span class="required">*</span></td>
+                    <td class="grey-border"><input type="text" id="studentID" required></td>
+                </tr>
+                <tr>
+                    <td class="grey-border">Class <span class="required">*</span></td>
+                    <td class="grey-border">
+                        <select id="class" required>
+                            <option value="">Select Class</option>
+                            <option value="IX">IX</option>
+                            <option value="XI">XI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="grey-border">Section <span class="required">*</span></td>
+                    <td class="grey-border">
+                        <select id="section" required>
+                            <option value="">Select Section</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="grey-border">DOB (dd/mm/yyyy) <span class="required">*</span></td>
+                    <td class="grey-border"><input type="date" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td class="grey-border">Visual Code</td>
+                    <td class="grey-border">
+                        <div class="captcha-container">
+                            <span id="captchaText" class="non-copyable"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="grey-border">Type The Code Shown <span class="required">*</span></td>
+                    <td class="grey-border"><input type="text" id="captcha" required></td>
+                </tr>
+            </table>
+
+            <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="button" id="backButton">Back</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
